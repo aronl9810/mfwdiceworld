@@ -7,8 +7,23 @@
     <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
   </head>
     <body>
+        <a-assets>
+            <img id = "sky" src = "assets/back.jpeg">
+            <img id = "1" src = "assets/1.jpeg">
+            <img id = "2" src = "assets/1.jpeg">
+            <img id = "3" src = "assets/1.jpeg">
+            <img id = "4" src = "assets/1.jpeg">
+            <img id = "5" src = "assets/1.jpeg">
+            <img id = "6" src = "assets/1.jpeg">
+        </a-assets>
         <a-scene>
-            
+            <a-sky src = "#sky"></a-sky>
+            <a-box src="assets/4.jpg" position="0 6 -5" rotation="0 45 45" scale="2 2 2"></a-box>
+            <a-box src="assets/4.jpg" position="3 2 -5" rotation="0 45 45" scale="2 2 2"></a-box>
+            <a-box src="assets/4.jpg" position="5 6 -5" rotation="0 45 45" scale="2 2 2"></a-box>
+            <a-box src="assets/4.jpg" position="2 8 10" rotation="0 45 45" scale="2 2 2"></a-box>
+            <a-box src="assets/4.jpg" position="4 10 5" rotation="0 45 45" scale="2 2 2"></a-box>
+            <a-box src="assets/4.jpg" position="8 8 8" rotation="0 45 45" scale="2 2 2"></a-box>
         </a-scene>
     </body>
-</html
+</html>
