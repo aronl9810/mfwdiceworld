@@ -1,2 +1,2 @@
 # mfwdiceworld
-Xin Yan from the game and funny discord name and whatever's
+The day where Mueller did Freedom Tuesday came true. 
